@@ -1,12 +1,15 @@
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+import { Intro } from "./components/Intro";
 
-
-import './App.css';
 
 
 function App() {
   return (
     <div className="App">
-      hello
+       <Header/>
+       <Intro/>
+       <Footer/>
     </div>
   );
 }
