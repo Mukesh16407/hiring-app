@@ -17,7 +17,7 @@ function App() {
     setTimeout(() => {
       setShowSplashScreen(false);
       sessionStorage.setItem("showSplashScreen", "false");
-    }, 5000);
+    }, 3000);
   }, []);
   return (
     <>
